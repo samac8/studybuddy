@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'StudyFlow — Your academic planner',
-  description: 'An academic calendar built around your classes, focus time, and life. Explore the StudyFlow visual prototype.',
+  title: 'StudyBuddy — Your academic planner',
+  description: 'An academic calendar built around your classes, focus time, and life. Explore the StudyBuddy visual prototype.',
 };
 
 export default function RootLayout({

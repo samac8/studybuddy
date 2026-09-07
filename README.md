@@ -1,11 +1,11 @@
-# StudyFlow — your first visual version
+# StudyBuddy — your first visual version
 
-StudyFlow is a website application. VS Code is the editor you use to open its files; a browser displays the website.
+StudyBuddy is a website application. VS Code is the editor you use to open its files; a browser displays the website.
 
 ## Start on this Mac (no coding needed)
 
 1. Open this `studyflow` folder in VS Code using **File → Open Folder**.
-2. Choose **Terminal → Run Task → Run StudyFlow**.
+2. Choose **Terminal → Run Task → Run StudyBuddy**.
 3. The terminal shows a Local address, normally `http://localhost:3000`. Open that address in your browser. Keep the terminal running while using the website.
 4. To stop it, click the terminal and press **Control+C**.
 
@@ -63,3 +63,8 @@ Add your own courses and manual assignments, with clear validation and course co
 ## Validation limits
 
 Automated checks do not replace trying the app on your laptop and phone. Browser interaction and screen-reader testing have not been performed. The prototype is not the complete production release.
+
+## StudyBuddy timer update
+The focus timer shows elapsed study time and time remaining for a 1–240 minute session. Start, pause/resume, and reset are available. It stays running while navigating within the app and catches up after background-tab throttling. Refreshing or closing the page resets it; it does not save study history or update sample assignments.
+
+The week calendar now uses 44 pixels per hour and fits all seven days on laptop widths. Phone screens scroll horizontally to keep event text readable. The local folder remains named studyflow so existing setup paths keep working.
