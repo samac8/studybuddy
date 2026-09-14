@@ -20,7 +20,9 @@ You can also double-click `start.command` in this folder. It uses the Node.js ru
 - Open Courses and Assignments to see the sample information.
 - On a narrow screen, use the menu button to open navigation.
 
-The first version uses sample data only. Completion bubbles, locks, and workload bars are visual examples. There are no accounts, saved changes, syllabus imports, notifications, or scheduling yet. Progress and Settings explain the coming features. We will build those in later milestones with your feedback.
+The current source includes both sample views and editable courses, assignments, syllabus review, and recurring events. Your own workspace is stored in this browser only. Accounts and automatic scheduling are still future work.
+
+See [Project status](docs/PROJECT_STATUS.md) for what is implemented, current limitations, validation, and the next milestones. The hosted preview may not include every newer local change.
 
 ## If you prefer terminal commands
 
@@ -56,9 +58,9 @@ npm run build
 - `ARCHITECTURE.md`: how future features fit together.
 - `DECISIONS.md`: scope and design decisions.
 
-## Next milestone
+## Next milestones
 
-Add your own courses and manual assignments, with clear validation and course colors. Later milestones cover accounts, syllabus review, study scheduling, mini-tasks, and approved reshuffling. The PDF remains the product reference.
+Validate the course/assignment/event workflows, then add accounts and cloud persistence, realistic scheduling, risk warnings, and approved reshuffling. See [Project status](docs/PROJECT_STATUS.md).
 
 ## Validation limits
 
@@ -68,3 +70,7 @@ Automated checks do not replace trying the app on your laptop and phone. Browser
 The focus timer shows elapsed study time and time remaining for a 1–240 minute session. Start, pause/resume, and reset are available. It stays running while navigating within the app and catches up after background-tab throttling. Refreshing or closing the page resets it; it does not save study history or update sample assignments.
 
 The week calendar now uses 44 pixels per hour and fits all seven days on laptop widths. Phone screens scroll horizontally to keep event text readable. The local folder remains named studyflow so existing setup paths keep working.
+
+## Product reference
+
+[Original product and engineering specification](docs/StudyFlow_Product_and_Engineering_Spec.pdf). It describes the target product, including features that are not implemented yet.
